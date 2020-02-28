@@ -2,7 +2,7 @@ package ml.imvasu.soen6441;
 
 public class Client {
 
-	private String name;
+	  private String name;
 	  private String address;
 	  private Server server;
 	  
@@ -11,6 +11,7 @@ public class Client {
 		this.address = address;
 	  }
 	  
+	  // Connection Request will be called from here
 	  public void connect(Server server) {
 		this.server = server;
 		server.attach(this);

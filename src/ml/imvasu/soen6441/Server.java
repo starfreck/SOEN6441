@@ -19,6 +19,7 @@ public class Server {
 		return active;
 	}
   
+	// Pointcut : captureClientConnectionRequest
 	public void attach (Client client) {
 		clients.add(client);
 	}
